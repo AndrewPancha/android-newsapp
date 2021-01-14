@@ -6,69 +6,68 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:orientation="vertical"
-    android:paddingLeft="24dp"
-    android:paddingTop="56dp"
-    android:paddingRight="24dp"
+    android:paddingStart="@dimen/padding_left"
+    android:paddingTop="@dimen/padding_top"
+    android:paddingEnd="@dimen/padding_right"
     tools:context="com.androiddevs.news.ui.LoginActivity">
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
+        style="@style/MyTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="24dp"
-        android:layout_marginTop="200dp"
-        style="@style/MyTextInputLayout">
+        android:layout_marginTop="@dimen/text_input_margin_top"
+        android:layout_marginBottom="@dimen/text_input_margin_bottom">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Email"
+            android:hint="@string/email_edit_text"
             android:inputType="textEmailAddress"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout3"
+        style="@style/MyTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="24dp"
-        style="@style/MyTextInputLayout">
+        android:layout_marginBottom="@dimen/text_input_margin_bottom">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Password"
+            android:hint="@string/password_edit_text"
             android:inputType="textPassword"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/sign_in_button"
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/button_height"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="82dp"
+        android:layout_marginTop="@dimen/button_margin_top"
         android:backgroundTint="#FF8F00"
-        android:text="Sign in"
+        android:text="@string/sign_in_button_label"
         android:textColor="@color/colorAccent"
-        app:cornerRadius="10dp" />
+        app:cornerRadius="@dimen/button_corner_radius" />
 
     <TextView
         android:id="@+id/sign_up_link_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Create account! Click here"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="110dp"
-        android:gravity="center_horizontal" />
+        android:layout_marginTop="@dimen/text_link_margin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/create_accoutn_text_view"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>

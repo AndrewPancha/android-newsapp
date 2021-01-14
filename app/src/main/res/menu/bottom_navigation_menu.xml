@@ -3,10 +3,10 @@
     <item
         android:id="@+id/breakingNewsFragment"
         android:icon="@drawable/ic_breaking_news"
-        android:title="Breaking News" />
-    
+        android:title="@string/breaking_news_title" />
+
     <item
         android:id="@+id/searchNewsFragment"
         android:icon="@drawable/ic_all_news"
-        android:title="Search News" />
+        android:title="@string/search_news_title" />
 </menu>
