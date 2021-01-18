@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_left">24dp</dimen>
+    <dimen name="padding_top">56dp</dimen>
+    <dimen name="padding_right">24dp</dimen>
+    <dimen name="text_input_margin_top">200dp</dimen>
+    <dimen name="text_input_margin_bottom">24dp</dimen>
+    <dimen name="button_height">64dp</dimen>
+    <dimen name="button_corner_radius">10dp</dimen>
+    <dimen name="button_margin_top">82dp</dimen>
+    <dimen name="text_link_margin_top">112dp</dimen>
+    <dimen name="navigation_height">56dp</dimen>
+    <dimen name="recycler_view_padding_bottom">48dp</dimen>
+    <dimen name="article_padding">8dp</dimen>
+    <dimen name="image_view_height">90dp</dimen>
+    <dimen name="image_view_width">160dp</dimen>
+    <dimen name="source_margin_top">16dp</dimen>
+    <dimen name="title_margin_start">8dp</dimen>
+    <dimen name="title_text_size">15sp</dimen>
+    <dimen name="title_margin_top">16dp</dimen>
+    <dimen name="publiched_margin_top">8dp</dimen>
+</resources>

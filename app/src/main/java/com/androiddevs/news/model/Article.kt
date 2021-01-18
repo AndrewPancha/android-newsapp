@@ -2,7 +2,6 @@ package com.androiddevs.news.model
 
 import java.io.Serializable
 
-
 data class Article(
     var id: Int? = null,
     val author: String?,

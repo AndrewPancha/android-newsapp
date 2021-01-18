@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">UkraineNews</string>
+    <string name="auth_error">Authentication error</string>
+    <string name="password_empty_error">Password cannot be empty</string>
+    <string name="username_empty_error">Username cannot be empty</string>
+    <string name="email_empty_error">Email cannot be empty</string>
+    <string name="password_length_error">Password must contain at least 6 characters</string>
+    <string name="create_accoutn_text_view">Create account! Click here</string>
+    <string name="sign_in_button_label">Sign in</string>
+    <string name="password_edit_text">Password</string>
+    <string name="username_edit_text">Username</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="already_have_an_account_click_here">Already have an account? Click here</string>
+    <string name="search_edit_text">Search...</string>
+    <string name="source">SOURCE</string>
+    <string name="title">TITLE</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="published_at">PUBLISHED AT</string>
+    <string name="email_edit_text">Email</string>
+    <string name="breaking_news_title">Breaking News</string>
+    <string name="search_news_title">Search News</string>
 </resources>
